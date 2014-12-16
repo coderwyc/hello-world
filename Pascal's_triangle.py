@@ -25,7 +25,7 @@ class Solution:
                 j -= 1
             array.append(1)
             copy = array[:]  # copy it to copy to append       
-            result.append(copy)               
+            result.append(copy)    # result.append(array) will result in all the element in result be same             
         return result
         
         
