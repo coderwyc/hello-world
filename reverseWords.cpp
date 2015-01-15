@@ -30,9 +30,8 @@ public:
         }
         // string concatenation in reverse order
         s = "";
-        vector <string>::reverse_iterator iter;
-        for(iter = words.rbegin(); iter != words.rend(); ++iter)
-            s += (*iter);
+        for(int i = words.size() - 1; i >= 0; i--)
+            s += words[i];
     }
 };
 int main()
